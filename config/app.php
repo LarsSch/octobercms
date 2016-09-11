@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'key' => 'CHANGE_ME!!!!!!!!!!!!!!!!!!!!!!!',
+    'key' => getenv("OCTOBER_SECRET_TOKEN"),
 
     'cipher' => 'AES-256-CBC',
 
